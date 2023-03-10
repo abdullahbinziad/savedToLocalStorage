@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is the Products</title>
+    <style>
+      .top {
+        width: 70%;
+      }
+      .mySection {
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="top">
+      <main class="mySection">
+        <div>
+          <input id="product" type="text" placeholder="Products" />
+          <input id="quantity" type="text" placeholder="Quanity" />
+          <input onclick="addElements()" type="button" value="submit" />
+        </div>
+      </main>
+
+      <div>
+        <ul id="muUl">
+
+        </ul>
+      </div>
+    </section>
+
+    <script src="./js/localstorage.js"></script>
+  </body>
+</html>
